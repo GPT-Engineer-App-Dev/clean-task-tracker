@@ -1,7 +1,8 @@
 // Complete the Index page component here
 // Use chakra-ui
+import React from 'react';
 import { Box, VStack, HStack, Input, IconButton, Text, useToast } from '@chakra-ui/react';
-import { FaPlus, FaTrash, FaCheck } from 'react-icons/fa';
+import { FaPlus, FaTrash, FaCheck } from 'react-icons/fa';  // FaPlus is already correctly imported
 
 const Index = () => {
   const [todos, setTodos] = React.useState([]);
